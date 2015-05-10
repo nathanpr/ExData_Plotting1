@@ -25,7 +25,7 @@ metering1 <- as.numeric(levels(powerDays$Sub_metering_1))[powerDays$Sub_metering
 metering2 <- as.numeric(levels(powerDays$Sub_metering_2))[powerDays$Sub_metering_2]
 metering3 <- as.numeric(levels(powerDays$Sub_metering_3))[powerDays$Sub_metering_3]
 
-plot(metering1, type="n", xaxt='n', main = "",  xlab ="", ylab = "Energy Sub Metering")
+plot(metering1, type="n", xaxt='n', main = "",  xlab ="", ylab = "Energy sub metering")
 
 points(metering1, type="o", col = "black", pch=NA)
 points(metering2, type="o", col = "red", pch=NA)
